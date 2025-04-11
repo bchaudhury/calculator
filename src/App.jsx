@@ -34,8 +34,9 @@ const App = () => {
             <input type='button' value='*' onClick={e => setValue(value + e.target.value)}/>
           </div>
           <div className='calculator-buttons'>
-            <input type='button' value='0' onClick={e => setValue(value + e.target.value)}/>
+            <input type='button' value='0' onpm onDragStartnClick={e => setValue(value + e.target.value)}/>
             <input type='button' value='00' onClick={e => setValue(value + e.target.value)}/>
+            {/* eslint-disable-next-line */}
             <input type='button' value='=' onClick={e => setValue(eval(value))}/>
             <input type='button' value='/' onClick={e => setValue(value + e.target.value)}/>
           </div>
