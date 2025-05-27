@@ -74,13 +74,13 @@ form .calculator-display {
   align-items: center;
   justify-content: center;
   place-content: center;
-  margin: 7px auto;
+  margin: 10px auto;
   padding-top: 5px;
   padding-bottom: 10px;
   padding-left: 8px;
   padding-right: 8px;
   border-radius: 10px;
-  width: 98%;
+  width: 95%;
   height: 40px;
   padding: 5px;
   box-sizing: border-box;
