@@ -6,7 +6,6 @@
   justify-content: center;
   height: 100vh;
   background: linear-gradient(135deg, #e7e7ca, #d3d3d3);
-  padding: 20px;
   box-sizing: border-box;
   border-radius: 20px;
 }
@@ -14,7 +13,8 @@
 .calculator{
   background: #adb393;
   border-radius: 30px;
-  padding: 5px;
+  width: 400px;
+  padding: 5px; 
   font-family: 'Lucida Sans','Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   border: #f7c297 5px solid;
   justify-content: center;
