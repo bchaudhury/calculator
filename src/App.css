@@ -11,7 +11,7 @@
 }
 
 .calculator{
-  background: #adb393;
+  background: #504f0a;
   border-radius: 30px;
   width: 350px;
   padding: 5px; 
@@ -118,8 +118,10 @@ form .calculator-buttons{
   padding: 3px;
   box-sizing: border-box;
   gap: 3px;
-  background-color: #adb393;
+  background-color: #504f0a;
   border-radius: 30px;
   justify-content: center;
   align-items: center;
+  z-index: -10;
+  place-content: center;
 }
