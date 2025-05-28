@@ -62,12 +62,12 @@ const App = () => {
             <input type='button' value='ln' onClick={e => setValue(Math.log(value))}/>
             <input type='button' value='exp' onClick={e => setValue(Math.exp(value))}/>
           </div>
-          <div className='calculator-buttons'>      
+          <div className='calculator-buttons'> 
             <input type='button' value='(' onClick={e => setValue(value + e.target.value)}/>
             <input type='button' value=')' onClick={e => setValue(value + e.target.value)}/>
-            <input type='button' value='√x' onClick={e => setValue(Math.cbrt(value))}/>
             <input type='button' value='x²' onClick={e => setValue(value * value)}/>
             <input type='button' value='x³' onClick={e => setValue(value * value * value)}/>
+            <input type='button' value='1/x' onClick={e => setValue(1 / value)}/>
             <input type='button' value='^' onClick={e => setValue(value + '**')}/>
           </div>
           <div className='calculator-buttons'>
