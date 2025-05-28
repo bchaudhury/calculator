@@ -58,8 +58,8 @@ const App = () => {
             <input type='button' value='sin' onClick={e => setValue(Math.sin(value))}/>
             <input type='button' value='cos' onClick={e => setValue(Math.cos(value))}/>
             <input type='button' value='tan' onClick={e => setValue(Math.tan(value))}/>
+            <input type='button' value='asin' onClick={e => setValue(Math.asin(value))}/>
             <input type='button' value='log' onClick={e => setValue(Math.log(value))}/>
-            <input type='button' value='ln' onClick={e => setValue(Math.log(value))}/>
             <input type='button' value='exp' onClick={e => setValue(Math.exp(value))}/>
           </div>
           <div className='calculator-buttons'> 
